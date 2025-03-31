@@ -16,7 +16,7 @@ namespace HHG_timebased_welcome_quotes_fields
             private string? _lastname;
             private int _age;
 
-            public string FirstName
+            public string? FirstName
             {
                 get
                 {
