@@ -8,10 +8,6 @@ namespace HHG_timebased_welcome_quotes_fields
     {
         public class Player
         {
-            // public string? FirstName;
-            // public string? LastName;
-            // public int Age;
-
             private string? _firstname;
             private string? _lastname;
             private int _age;
@@ -25,11 +21,6 @@ namespace HHG_timebased_welcome_quotes_fields
 
                 set
                 {
-                    if (string.IsNullOrEmpty(value))
-                    {
-                        //throw new NullReferenceException();
-                        //Console.WriteLine("Please type a valid value");
-                    }
                     _firstname = value;
                 }
             }
@@ -42,10 +33,6 @@ namespace HHG_timebased_welcome_quotes_fields
 
                 set
                 {
-                    if (string.IsNullOrEmpty(value))
-                    {
-                        //throw new NullReferenceException();
-                    }
                     _lastname = value;
                 }
             }
@@ -181,7 +168,7 @@ namespace HHG_timebased_welcome_quotes_fields
 
         public static void ReadInput()
         {
-            //ask the user for their firstname, lastname and age and add these values to their respective player fields
+            //ask the user for their FirstName, LastName and Age and add these values to their respective player fields
             string? result = null;
             bool ageIsANumber = false;
 
