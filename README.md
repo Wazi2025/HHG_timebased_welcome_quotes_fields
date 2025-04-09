@@ -1,1 +1,1 @@
-A pseudo-random Hitch-hikers guide to the Galaxy quote picker that asks for the user's firstname, lastname and age and picks from a list of 60 items based on DateTime(seconds)
+A pseudo-random Hitch-hikers guide to the Galaxy quote picker that asks for the user's firstname, lastname and age and picks from a list of 60 items based on DateTime(seconds). There's also a not so difficult easter egg in there.
